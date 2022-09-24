@@ -184,6 +184,7 @@ public class CheesePizza extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), LastPage.class);
                 String pri= priceText.getText().toString();
+                //there will a price charge of 1.25 on every order
                 double total = Integer.parseInt(pri) * 1.25;
                 String value = String.valueOf(total);
                 i.putExtra("Total", value);
