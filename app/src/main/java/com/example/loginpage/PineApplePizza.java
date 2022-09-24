@@ -177,7 +177,7 @@ public class PineApplePizza extends AppCompatActivity {
             }
         });
 
-        id= findViewById(R.id.textView2);
+        id = findViewById(R.id.textView2);
         id.setText(getIntent().getStringExtra("USER"));
 
         order =findViewById(R.id.button13);
